@@ -9,7 +9,7 @@ console.log("fourthTeacher: ", fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teachers[4] = "Patrick";
-console.table(teachers);
+console.log("teachers: ", teachers[4]);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
@@ -21,11 +21,11 @@ console.log("firstTeacher: ", firstTeacher);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push("Vanessa");
-console.table(teachers);
+console.log("teachersPush: ", teachers[5]);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 teachers.unshift("Sarah");
-console.table(teachers);
+console.log("teachersUnShift: ", teachers[0]);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
